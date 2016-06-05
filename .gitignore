@@ -1,0 +1,5 @@
+.git
+.proxy_pool.pkl
+build
+dist
+proxy_pool.egg-info
