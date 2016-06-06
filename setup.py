@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 from setuptools import setup
 
-# Get the long description from the README file
-with open('README.md') as f:
-    long_description = f.read()
+long_description = '''
+A proxy pool which you can get an avaiable proxy http server. 
+When we run a crawler for data collecting purpose, we always get blocked. 
+This module may help you get out of the trouble.'''
 
 setup(
     name='proxy_pool',
